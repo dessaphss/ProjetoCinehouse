@@ -1,0 +1,62 @@
+catalogo.filmes[i].forEach(catalogo.filmes => console.log(catalogo.filmes[i]));
+
+
+
+Primeira tentativa
+const listarTodosOsFilmes = () => {
+   for(catalogo of catalogo){
+    if (catalogo.length){
+        console.log(`Olá, visitante! Esses são os filmes disponíveis em nosso catálogo ${catalogo.length}`)
+    }
+   } 
+}
+
+
+
+
+
+
+ EXEMPLO COM ARROW FUNCTION
+
+const listarTodosOsFilmes = (codigo) => {
+  console.log(`Olá, temos esse ${filme} disponível em nosso catálogo`)
+}
+
+catalogo.forEach((item) => {
+  listarTodosOsFilmes(item)
+})
+
+// LISTAR FILMES EM CARTAZ II
+// A função deve percorrer toda a lista de filmes armazenada no catálogo utilizando o loop for e retornar os filmes disponíveis em cartaz.
+
+function listarFilmesEmCartaz(){
+    for (let i = 0; i < catalogo.length; i++){
+    } if (catalogo.emCartaz){
+        console.log(`Olá, usuário! Temos esse filme ${catalogo.emCartaz} disponível em nosso catálogo`)
+    }
+}
+
+// não funcionou / listarFilmesEmCartaz()
+
+// ALTERAR STATUS EM CARTAZ
+// CONDIÇÃO ? PRIMEIRA EXPRESSÃO : SEGUNDA EXPRESSÃO
+
+
+
+
+function alterarStatusEmCartaz (codigo){
+    for (let i = 0; i < catalogo.length; i++){
+        if (catalogo[i].codigo === codigo){
+            catalogo[i].emCartaz = !catalogo[i].emCartaz
+            console.log(catalogo[i])
+        }
+    }
+}
+
+alterarStatusEmCartaz(2)
+
+const alterarStatusEmCartaz = () => {
+    catalogo.emCartaz == true
+}
+
+*/

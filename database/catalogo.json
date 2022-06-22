@@ -1,0 +1,136 @@
+{
+    "filmes": [{
+        "codigo": 1,
+        "titulo": "Cruella",
+        "duracao": 2.5,
+        "atores": ["Emma Stone", "Emma Thompson", "Joel Fry", "Tipper Seifert"],
+        "anoDeLancamento": 2021,
+        "emCartaz": false
+    }, {
+        "codigo": 2,
+        "titulo": "Medida Provisória",
+        "duracao": 1.6,
+        "atores": ["Alfred Enoch", "Taís Araújo", "Seu Jorge", "Emicida"],
+        "anoDeLancamento": 2022,
+        "emCartaz": true
+    }, {
+        "codigo": 3,
+        "titulo": "Pantera Negra",
+        "duracao": 3,
+        "atores": ["Chadwick Boseman", "Michael B. Jordan", "Lupita Nyong'o", "Danai Gurira"],
+        "anoDeLancamento": 2020,
+        "emCartaz": true
+    }, {
+        "codigo": 3,
+        "titulo": "Pantera Negra",
+        "duracao": 3,
+        "atores": ["Chadwick Boseman", "Michael B. Jordan", "Lupita Nyong'o", "Danai Gurira"],
+        "anoDeLancamento": 2020,
+        "emCartaz": true
+    }, {
+        "codigo": 3,
+        "titulo": "Pantera Negra",
+        "duracao": 3,
+        "atores": ["Chadwick Boseman", "Michael B. Jordan", "Lupita Nyong'o", "Danai Gurira"],
+        "anoDeLancamento": 2020,
+        "emCartaz": true
+    }, {
+        "codigo": 3,
+        "titulo": "Pantera Negra",
+        "duracao": 3,
+        "atores": ["Chadwick Boseman", "Michael B. Jordan", "Lupita Nyong'o", "Danai Gurira"],
+        "anoDeLancamento": 2020,
+        "emCartaz": true
+    }, {
+        "codigo": 3,
+        "titulo": "Pantera Negra",
+        "duracao": 3,
+        "atores": ["Chadwick Boseman", "Michael B. Jordan", "Lupita Nyong'o", "Danai Gurira"],
+        "anoDeLancamento": 2020,
+        "emCartaz": true
+    }, {
+        "codigo": 3,
+        "titulo": "Pantera Negra",
+        "duracao": 3,
+        "atores": ["Chadwick Boseman", "Michael B. Jordan", "Lupita Nyong'o", "Danai Gurira"],
+        "anoDeLancamento": 2020,
+        "emCartaz": true
+    }, {
+        "codigo": 3,
+        "titulo": "Pantera Negra",
+        "duracao": 3,
+        "atores": ["Chadwick Boseman", "Michael B. Jordan", "Lupita Nyong'o", "Danai Gurira"],
+        "anoDeLancamento": 2020,
+        "emCartaz": true
+    }, {
+        "codigo": 3,
+        "titulo": "Pantera Negra",
+        "duracao": 3,
+        "atores": ["Chadwick Boseman", "Michael B. Jordan", "Lupita Nyong'o", "Danai Gurira"],
+        "anoDeLancamento": 2020,
+        "emCartaz": true
+    }, {
+        "codigo": 3,
+        "titulo": "Pantera Negra",
+        "duracao": 3,
+        "atores": ["Chadwick Boseman", "Michael B. Jordan", "Lupita Nyong'o", "Danai Gurira"],
+        "anoDeLancamento": 2020,
+        "emCartaz": true
+    }, {
+        "codigo": 3,
+        "titulo": "Pantera Negra",
+        "duracao": 3,
+        "atores": ["Chadwick Boseman", "Michael B. Jordan", "Lupita Nyong'o", "Danai Gurira"],
+        "anoDeLancamento": 2020,
+        "emCartaz": true
+    }, {
+        "codigo": 3,
+        "titulo": "Pantera Negra",
+        "duracao": 3,
+        "atores": ["Chadwick Boseman", "Michael B. Jordan", "Lupita Nyong'o", "Danai Gurira"],
+        "anoDeLancamento": 2020,
+        "emCartaz": true
+    }, {
+        "codigo": 3,
+        "titulo": "Pantera Negra",
+        "duracao": 3,
+        "atores": ["Chadwick Boseman", "Michael B. Jordan", "Lupita Nyong'o", "Danai Gurira"],
+        "anoDeLancamento": 2020,
+        "emCartaz": true
+    }, {
+        "codigo": 3,
+        "titulo": "Pantera Negra",
+        "duracao": 3,
+        "atores": ["Chadwick Boseman", "Michael B. Jordan", "Lupita Nyong'o", "Danai Gurira"],
+        "anoDeLancamento": 2020,
+        "emCartaz": true
+    }, {
+        "codigo": 3,
+        "titulo": "Pantera Negra",
+        "duracao": 3,
+        "atores": ["Chadwick Boseman", "Michael B. Jordan", "Lupita Nyong'o", "Danai Gurira"],
+        "anoDeLancamento": 2020,
+        "emCartaz": true
+    }, {
+        "codigo": 3,
+        "titulo": "Pantera Negra",
+        "duracao": 3,
+        "atores": ["Chadwick Boseman", "Michael B. Jordan", "Lupita Nyong'o", "Danai Gurira"],
+        "anoDeLancamento": 2020,
+        "emCartaz": true
+    }, {
+        "codigo": 3,
+        "titulo": "Pantera Negra",
+        "duracao": 3,
+        "atores": ["Chadwick Boseman", "Michael B. Jordan", "Lupita Nyong'o", "Danai Gurira"],
+        "anoDeLancamento": 2020,
+        "emCartaz": true
+    }, {
+        "codigo": 3,
+        "titulo": "Pantera Negra",
+        "duracao": 3,
+        "atores": ["Chadwick Boseman", "Michael B. Jordan", "Lupita Nyong'o", "Danai Gurira"],
+        "anoDeLancamento": 2020,
+        "emCartaz": true
+    }]
+}
