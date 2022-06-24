@@ -1,9 +1,6 @@
 let catalogo = require('./database/catalogo.json');
 const fs = require('fs');
 
-
-/*
-
 // FUNÇÃO ADICIONAR FILME 
 function adicionarFilme(codigo, titulo, duracao, atores, anoDeLancamento, emCartaz) {
     const novoFilme = {
@@ -22,10 +19,8 @@ function adicionarFilme(codigo, titulo, duracao, atores, anoDeLancamento, emCart
 // adicionarFilme(3, "Pantera Negra", 3, ["Chadwick Boseman", "Michael B. Jordan", "Lupita Nyong'o", "Danai Gurira"], 2020, true)
 console.log(catalogo.filmes);
 
-*/
 
 // BUSCAR FILME 
-// CÓDIGO I 
 function buscarFilme (codigo){
     for (let i = 0; i < catalogo.filmes.length; i++) {
         if (catalogo.filmes[i].codigo === codigo){
@@ -39,47 +34,43 @@ function buscarFilme (codigo){
 }
 
 //console.log(buscarFilme(4))
-buscarFilme(3) // ele não encontra o filme que foi adicionado
+buscarFilme(4) // 
 
 
 
-/*
 // ALTERAR STATUS EM CARTAZ 
 // CÓDIGO I
 
 function alterarStatusEmCartaz (codigo){
     for (let i = 0; i < catalogo.filmes.length; i++){
         if (catalogo.filmes[i].codigo === codigo){
-            catalogo.filmes[i].emCartaz = !catalogo.filmes[i].emCartaz
-            console.log(catalogo.filmes[i])
+                catalogo.filmes[i].emCartaz = !catalogo.filmes[i].emCartaz
+                console.log(catalogo.filmes[i])
         }
-    }
-}
-
-
-alterarStatusEmCartaz(2)
-
-
-// CÓDIGO II - TRAVEI NO IF ITERNÁRIO 
-
-function alterarStatusEmCartaz = (codigo) => {
-    for (let i = 0; < catalogo.filmes.lenght; i++){
-        catalogo.filmes[i].codigo == codigo ? catalogo.filmes[i].emCartaz = !catalogo.filmes[i].emCartaz : '';    
     }
 };
 
 alterarStatusEmCartaz(2)
 
-*/
 
-/*
+
+// CÓDIGO II - IF ITERNÁRIO 
+
+const alterarStatusEmCartaz = codigo => {
+    for (let i = 0; i < catalogo.filmes.length; i++){
+        catalogo.filmes[i].codigo == codigo ? catalogo.filmes[i].emCartaz = !catalogo.filmes[i].emCartaz : '';    
+    }
+};
+
+console.log(catalogo.filmes[1])
+alterarStatusEmCartaz(2)
+console.log(catalogo.filmes[1])
+
 // LISTAR TODOS OS FILMES 
-// A função deve percorrer toda a lista de filmes armazenada no catálogo utilizando o loop for e retornar as informações de maneira amigável ao usuário
 
 function listarTodosOsFilmes (){
     for (let i = 0; i < catalogo.filmes.length; i++){
         console.log(catalogo.filmes[i])
-        console.log(`Olá, usuário! Confira nosso catálogo ${catalogo.filmes[i].titulo}`) // verificar se esse console está correto
     }
 }
 
@@ -90,9 +81,9 @@ listarTodosOsFilmes()
 function listarFilmesEmCartaz (){
     for (let i = 0; i < catalogo.filmes.length; i++){
         if (catalogo.filmes[i].emCartaz)
-        console.log(catalogo.filmes[i]) // não deveria identificar somente o true?
+        console.log(catalogo.filmes[i])
     }
 }
 
 listarFilmesEmCartaz()
-*/
+
